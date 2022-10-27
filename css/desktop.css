@@ -1,0 +1,247 @@
+@media (min-width: 810px) {
+    .desktop-nav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .menu {
+        color: white;
+        display: none;
+    }
+
+    header{
+        display: flex;
+        justify-content: space-between;
+        margin: 40px 0px;
+    }
+
+    ul{
+        display: flex;
+    }
+
+    a{
+        font-size: 16px;
+        margin: 10px;
+        margin-top: -5px;
+    }
+
+    ul div{
+        margin-top: -18px;
+    }
+
+    section{
+        display: flex;
+        margin: 80px 0px; 
+    }
+
+    .illustration1 {
+        margin: -60px 3% 40px 3%;
+    }
+
+    section:nth-child(3){
+        display: flex;
+        flex-direction: column;
+        margin: 80px 0px; 
+    }
+
+
+    .details {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    #spec-detail {
+        display: flex;
+        margin-left: 0px;
+        margin-top: 15px;
+    }
+    
+    #spec-detail1 {
+        display: flex;
+        margin-left: 0px;
+        margin-top: 15px;
+    }
+
+    #spec-detail2 {
+        display: flex;
+        margin-left: 0px;
+        margin-top: 15px;
+    }
+
+    .reverse{
+        display: flex;
+        flex-direction: row-reverse;
+        margin: 50px auto;
+    }
+
+    .data {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    input {
+        width: 280%;
+        margin-right: 30px;
+    }
+    
+    select {
+        width: 120%;
+        margin-right: 30px;
+    }
+
+    .hash-cal {
+        width: 70%;
+    }
+
+    .hash-cal div {
+        flex-direction: row;
+    }
+
+    .hash-cal div button {
+        margin-left: 20px;
+    }
+
+    .hash-cal div select{
+        margin-left: 20px;
+    }
+
+    section:nth-child(4){
+        color: black;
+        display: flex;
+        flex-direction: column;
+        margin-top: -210px;
+    }
+
+    .coins-list {
+        width: 101%;
+        display: flex;
+    }
+
+    .container{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .coin-div {
+        width: 20%;
+    }
+
+    .coin-div div {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .coin-div span {
+        margin-top: 23px;
+        margin-left: 5px;
+        text-align: center;
+    }
+
+    section:nth-child(4) div:nth-child(1) p:nth-child(1) {
+        padding-top: 0px;
+    }
+
+    section:nth-child(5){
+        color: white;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .chart{
+        display: flex;
+        margin: 30px auto;
+    }
+
+    .stats{
+        display: flex;
+        flex-direction: row-reverse;
+        margin: 30px auto;
+    }
+
+    .table{
+        display: flex;
+        margin: 30px auto;
+    }
+
+    section:nth-child(5) div:nth-child(4){
+        width: 75%;
+        margin: 70px auto;
+        border-radius: 20px;
+        display: flex;
+        padding: 60px;
+    }
+
+    section:nth-child(5) div:nth-child(4) input{
+       padding: 0px;
+       height: 50px;
+       margin-top: 60px;
+    }
+
+    section:nth-child(5) div:nth-child(4) button{
+        margin-top: 80px;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer div:nth-child(1){
+        display: flex;
+        justify-content: space-around;
+    }
+
+    footer div p{
+        text-align: left;
+        color: #FFFFFF;
+        font-size: 20px;
+        margin: 0;
+        margin-left: 10%;
+        font-weight: 600;
+    }
+    
+    footer ul{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    footer a{
+        margin: 10px;
+        font-size: 14px;
+        text-align: left;
+    }
+    
+    footer div:nth-child(4) p{
+        font-size: 16px;
+    }
+    
+    footer div:nth-child(4) div{
+        margin: 20px auto;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .wrapper{
+        display: flex;
+        margin-left: 6%;
+        justify-content: space-around;
+    }
+
+    .media{
+        margin-left: 45%;
+        margin-top: -5px;
+    }
+
+    .media svg{
+        margin: 0 10px;
+    }
+
+    .logo{
+        margin-top: 13px;
+    }
+
+    .links{
+        width: 20%;
+    }
+}
